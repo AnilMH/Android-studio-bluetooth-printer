@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#666"
+        android:paddingLeft="5dip"
+        android:text="Bluetooth Printers"
+        android:textColor="#fff"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:stackFromBottom="true" />
+</LinearLayout>
